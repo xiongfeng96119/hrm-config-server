@@ -12,3 +12,8 @@ hrm:
   swagger:
     title: 课程管理服务
     description: 课程管理服务接口文档
+
+#开启feign的hystrix 
+feign: 
+  hystrix:
+    enabled: true
