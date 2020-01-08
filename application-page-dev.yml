@@ -1,0 +1,16 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: PAGE-SERVICE
+  datasource:
+    url: jdbc:mysql:///hrm-page?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+hrm:
+  swagger:
+    title: 静态化页面管理服务
+    description: 静态化页面管理接口文档说明
+    
+#开启feign  hystrix
+feign:
+  hystrix:
+    enabled: true
